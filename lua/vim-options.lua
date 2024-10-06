@@ -33,10 +33,17 @@ keymap("n", "<leader>w", ":wq<CR>", opts)
 keymap("n", "<leader>kw", ":wa<CR>:qa<CR>", opts)
 keymap("n", "<leader>q", ":q<CR>", opts)
 
+-- Saving file
+keymap("n", "<C-s>", ":w<CR>", opts)
+
 -- Split window
 keymap("n", "<leader>l", "<C-w>v:bnext<CR><C-w>l", opts)
 keymap("n", "<leader>h", "<C-w>v<C-w>l:bnext<CR><C-w>h", opts)
 
+-- Tabs
+keymap("n", "<leader>tt", ":tabedit<CR>", opts)
+keymap("n", "<tab>", ":tabnext<CR>", opts)
+keymap("n", "<s-tab>", ":tabprev<CR>", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", ":wincmd h<CR>", opts)
@@ -65,6 +72,10 @@ keymap("n", "<S-k>", ":m .-2<CR>==", opts)
 -- Duplicate line
 keymap("n", "<a-j>", "yyp", opts)
 keymap("n", "<A-k>", "yyP", opts)
+
+-- Adding new lines
+keymap("n", "<CR>", "o<C-c>", opts)
+keymap("n", "<S-CR>", "O<C-c>", opts)
 
 -- Visual --
 -- Stay in indent mode
