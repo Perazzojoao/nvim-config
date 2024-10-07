@@ -77,6 +77,8 @@ keymap("n", "<A-k>", "yyP", opts)
 keymap("n", "<CR>", "o<C-c>", opts)
 keymap("n", "<S-CR>", "O<C-c>", opts)
 
+keymap("n", "ç", "%" , opts)
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv^", opts)
