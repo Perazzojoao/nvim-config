@@ -23,7 +23,7 @@ return {
           },
         },
       })
-      vim.keymap.set("i", "<Tab>", "<cmd>Copilot suggestion accept<CR>", { noremap = true, silent = true })
+      vim.keymap.set("i", "<S-Tab>", "<cmd>Copilot suggestion accept<CR>", { noremap = true, silent = true })
       vim.keymap.set("i", "<M-l>", "<cmd>Copilot suggestion accept_word<CR>", { noremap = true, silent = true })
     end,
   },

@@ -10,6 +10,10 @@ return {
         dependencies = { "rafamadriz/friendly-snippets" },
       },
     },
-    opts = {},
+    opts = {
+      completion = {
+        autocomplete = false, -- Autocomplete será manual agora
+      },
+    },
   },
 }
