@@ -42,6 +42,7 @@ return {
     config = function()
       require("catppuccin").setup({
         colorscheme = "mocha",
+
         highlight_overrides = {
           mocha = function(mocha)
             return {

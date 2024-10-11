@@ -24,10 +24,10 @@ keymap("n", "<tab>", ":tabnext<CR>", { noremap = true, silent = true })
 keymap("n", "<s-tab>", ":tabprev<CR>", { noremap = true, silent = true })
 
 -- Better window navigation
-keymap("n", "<C-h>", ":wincmd h<CR>", { noremap = true, silent = true })
-keymap("n", "<C-j>", ":wincmd j<CR>", { noremap = true, silent = true })
-keymap("n", "<C-k>", ":wincmd k<CR>", { noremap = true, silent = true })
-keymap("n", "<C-l>", ":wincmd l<CR>", { noremap = true, silent = true })
+-- keymap("n", "<C-h>", ":wincmd h<CR>", { noremap = true, silent = true })
+-- keymap("n", "<C-j>", ":wincmd j<CR>", { noremap = true, silent = true })
+-- keymap("n", "<C-k>", ":wincmd k<CR>", { noremap = true, silent = true })
+-- keymap("n", "<C-l>", ":wincmd l<CR>", { noremap = true, silent = true })
 
 -- Better navigation
 keymap("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
